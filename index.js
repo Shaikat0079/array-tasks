@@ -38,3 +38,10 @@ if (vehicles.includes("Aeroplane")){
 }else{
     console.log("No Aeroplane At All")
 }
+
+const myName = "Shaikat";
+
+let numbers = [10,20,5, 9, 50];
+
+console.log(Array.isArray(myName));
+console.log(Array.isArray(numbers));
