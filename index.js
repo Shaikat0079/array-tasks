@@ -17,3 +17,24 @@ console.log(destinations)
 destinations.push("Canada","England")
 
 console.log(destinations)
+
+destinations.pop()
+
+console.log(destinations)
+
+let vehicles = ["Bike","Car","Scooter"]
+
+console.log(vehicles.includes("Car"))
+
+console.log(vehicles.includes("Aeroplane"))
+
+if (vehicles.includes("Car")){
+    console.log("Yes you have a car");
+}else{
+    console.log("No car At All")
+}
+if (vehicles.includes("Aeroplane")){
+    console.log("Yes you have a car");
+}else{
+    console.log("No Aeroplane At All")
+}
