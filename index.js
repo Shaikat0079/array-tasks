@@ -49,3 +49,27 @@ console.log(Array.isArray(numbers));
 let new_Concated = numbers.concat(vehicles)
 
 console.log(new_Concated)
+
+//  loops
+
+for(const num of numbers){
+    console.log(num);
+}
+
+for(const vehicle of vehicles){
+    console.log(vehicle)
+}
+
+let num = 0;
+
+while(num<11){
+    console.log("Shaikat Barua")
+    num++;
+}
+num=0
+sum = 0;
+while(num<=10){
+    sum += num;
+    num++
+}
+console.log(sum)
