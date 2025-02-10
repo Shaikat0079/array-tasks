@@ -73,3 +73,23 @@ while(num<=10){
     num++
 }
 console.log(sum)
+
+// for loop
+
+sum = 0;
+
+for(let i = 10; i <= 20; i++){
+    sum += i;
+}
+
+console.log(sum)
+
+for (let i = 20; i>=0; i--){
+    console.log(i);
+}
+
+let n = 50;
+while(n>=0){
+    console.log(n);
+    n--
+}
